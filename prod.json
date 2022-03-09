@@ -1,0 +1,13 @@
+[{
+	"tech-field": "虚拟机",
+	"tech-stack": "JVM",
+	"check-point": "codecache",
+	"risk-item": "codecache 配置不合理",
+	"risk-behavior": "应用运行了一段时间之后，Load飙升，处理能力下降，接口响应时间变长，在日志中发现有 CodeCache is full 记录",
+	"root-cause": "JVM编译优化后的代码会存储在CodeCache，当CodeCache不足或者设置不合理时会导致热代码退优化或重复编译，导致性能下降",
+	"check-out": "观察 ReservedCodeCacheSize 值是否为小于等于240M的默认值",
+	"solution": "配置 -XX:ReservedCodeCacheSize 参数为一个大于240M默认值的合理值",
+	"reference": "https://heapdump.cn/article/304430",
+	"contributor": "占小狼",
+	"website": "https://www.jianshu.com/u/90ab66c248e6"
+}]
