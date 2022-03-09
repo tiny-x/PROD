@@ -39,3 +39,16 @@ The performance risk open data
 	"website": "https://www.jianshu.com/u/90ab66c248e6"
 }
 ```
+
+#### tech-field 技术领域 的取值范围建议从以下内容中选择
+- 中间件/midware
+- 虚拟机/vm
+- CPU/cpu
+- 内存/mem
+- 网络/net
+- 磁盘/disk
+- 开发工具包/sdk
+- 代码/code
+
+## 如何开始贡献？
+按照 Schema 定义，向本项目提交 MR 即可
