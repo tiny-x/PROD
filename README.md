@@ -49,6 +49,3 @@ The performance risk open data
 - 磁盘/disk
 - 开发工具包/sdk
 - 代码/code
-
-## 如何开始贡献？
-按照 Schema 定义，向本项目 prod.json 文件提交 MR 即可
