@@ -51,4 +51,4 @@ The performance risk open data
 - 代码/code
 
 ## 如何开始贡献？
-按照 Schema 定义，向本项目提交 MR 即可
+按照 Schema 定义，向本项目 prod.json 文件提交 MR 即可
